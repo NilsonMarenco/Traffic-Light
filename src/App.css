@@ -1,0 +1,42 @@
+.semaforo__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 80px;
+  margin: auto;
+  margin-top: 30px;
+  border: 5px solid #000;
+  border-radius: 80px;
+  background-color: rgb(40, 35, 35);
+  padding: 20px;
+}
+
+.bombilla {
+  width: 90px;
+  height: 90px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  margin: 5px;
+  background: #888;
+}
+
+.roja {
+  background: #ff5733;
+  box-shadow: 0 0 50px rgba(255, 87, 51, 0.7);
+}
+
+.amarilla {
+  background: #ffd633;
+  box-shadow: 0 0 50px rgba(255, 214, 51, 0.7);
+}
+
+.verde {
+  background: #33ff55;
+  box-shadow: 0 0 15px rgba(51, 255, 85, 0.7);
+}
+
+.apagada {
+  opacity: 0.1;
+}
